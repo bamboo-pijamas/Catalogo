@@ -1,7 +1,7 @@
 .montse{
     font-family: 'Montserrat', sans-serif;
 }
-body, p, nav, main{
+body, p, nav, main, .bg-body-referencia {
     background-color:#A6B9C8;
     color: #0B2A3c;
 }

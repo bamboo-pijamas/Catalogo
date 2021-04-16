@@ -1,0 +1,76 @@
+{
+    "fotos": [
+        {
+            "nombre": "Carmín",
+            "ruta": "01_beige-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "beige",
+            "representacion":"portada"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_beige_a-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "beige",
+            "representacion":"puesta"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_beige_b-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "beige",
+            "representacion":"adicional"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_rosa-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "rosa",
+            "representacion":"portada"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_rosa_a-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "rosa",
+            "representacion":"puesta"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_rosa_b-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "rosa",
+            "representacion":"adicional"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_rosado-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "rosado",
+            "representacion":"portada"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_rosado_a-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "rosado",
+            "representacion":"puesta"
+        },
+        {
+            "nombre": "Carmín",
+            "ruta": "01_rosado_b-opt.jpg",
+            "referencia": "01",
+            "descripción": "Camisa manga corta y Short",
+            "color": "rosado",
+            "representacion":"adicional"
+        }
+    ]
+}
