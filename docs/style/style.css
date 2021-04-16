@@ -41,6 +41,11 @@
 .footer .row >div{
     font-size: 0.8em;
 }
+
+.titulo{
+    text-align: center;
+    padding: 1em 0em 0em 0em;
+}
 @media (min-width: 800px){
     .contenedor{
         width: 65%;
