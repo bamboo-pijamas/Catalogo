@@ -1,10 +1,13 @@
 .montse{
     font-family: 'Montserrat', sans-serif;
 }
-body, p, nav, main, .bg-body-referencia {
+body, p, main{
     background-color:#A6B9C8;
     color: #0B2A3c;
-} 
+}
+nav{
+    background-color: #fff;
+}
 #logo{
     width: 170px; 
     height: 55px; 
@@ -13,7 +16,7 @@ body, p, nav, main, .bg-body-referencia {
 .boton{
     border-radius: 4px;
     border: #0B2A3c solid 1px;
-    color: #A6B9C8;
+    color: #fff;
     background-color: #0B2A3c;
     padding: 0.5em 1.5em ;
     text-align: center;
