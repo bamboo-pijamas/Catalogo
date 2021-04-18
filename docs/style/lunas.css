@@ -1,0 +1,71 @@
+.lunas{
+    display: flex;
+    flex-direction: row;    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    border: red 2px solid;
+}
+/* .luna{
+    position: absolute;
+    top: 40vh;
+    animation-name: moverArriba;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;
+} */
+.cerrarPreloader {
+    transform: translateY(-100%);
+    transition: all 1.5s;
+  }
+  
+@keyframes moverArriba {
+    0%   {top: 40vh;}
+    50%  {top: 25vh;}
+    100% {top: 40vh;}
+  }
+
+#luna1{position: absolute;
+    top: 40vh;left: 30%;
+    animation-name: moverArriba;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;
+    animation-delay: 0s;
+}
+#luna2{    position: absolute;
+    top: 40vh;
+    left: 35%;
+    animation-name: moverArriba;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;animation-delay: 0.3s;}
+#luna3{    position: absolute;
+    top: 40vh;left: 40%;
+    animation-name: moverArriba;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;animation-delay: 0.6s;}
+#luna4{    position: absolute;
+    top: 40vh;left: 45%;
+    animation-name: moverArriba;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;animation-delay: 0.9s;}
+#luna5{    position: absolute;
+    top: 40vh;left: 50%;
+    animation-name: moverArriba;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;animation-delay: 1.2s;}
+#luna6{    position: absolute;
+    top: 40vh;left: 55%;
+    animation-name: moverArriba;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;
+    animation-delay: 1.5s;
+}
+@media (max-width: 425px){
+    .luna{
+        margin: 1em 0.4em 1em 0.4em;
+    }
+}
+@media (max-width: 320px){
+    .luna{
+        margin: 1em 0.3em 1em 0.3em;
+    }
+} 
