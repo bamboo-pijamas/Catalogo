@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="estilomontse.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/animations.css">
 </head>
 
 <body>
     <!-- Acá comienza la barra de navegación -->
-    <nav class="navbar navbar-expand-sm sticky-top">
+    <nav class="navbar navbar-expand-sm sticky-top border border-bottom-2">
         <a class="navbar-brand mx-auto" target="blank" href="http://wa.me/573242885914"><img id="logo" src="./logo.png"
                 alt="Bamboo" />
         </a>
@@ -65,154 +67,65 @@
         </div>
     </div>
 
-    <main>
-        <div class="container montse mx-0 pb-4 mb-3 mx-md-auto">
-            <div class="row">
-                <div class="col-md-6 m-auto text-center montse">
-                    <h3>Catálogo</h3>
+    <main> 
+
+        <div id="contenido">
+            <div class="titulo"><h3>Catálogo</h3></div>
+
+            <div class="contenedor js-scroll fade-in">
+                <div id="nombreProducto1" class="nombreProducto">
+                    <h4>Greta - Blusa y short</h4>
+                </div>
+                <div class="producto1 producto 03_rosa" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/03_rosa-opt.jpg" alt="..." />
+                    <h6>Palo de rosa</h6>
+                </div>
+                <div class="producto2 producto 03_beige"data-toggle="modal" data-target="#modalDetalles"><img class="c" src="./Prendas/03_beige-opt.jpg" alt="..." />
+                    <h6>Beige</h6>
+                </div>
+                <div class="producto3 producto 03_rosado" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/03_rosado-opt.jpg" alt="..." />
+                    <h6>Rosa oscuro</h6>
                 </div>
             </div>
-            <div class="card mb-2">
-                <div class="card-header text-center h5 font-weight-bold">
-                    Greta - Blusa y short
+            <div class="contenedor js-scroll fade-in">
+                <div id="nombreProducto2" class="nombreProducto">
+                    <h4>Carlota - Camisa y pantalón</h4>
                 </div>
-                <div class="card-body bg-body-referencia">
-                    <div class="row">
-                        <div class="col-4 mt-0">
-                            <div class="card 03_rosa" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/03_rosa-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Palo de <br>rosa</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-0">
-                            <div class="card 03_beige" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/03_beige-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Beige <br>&nbsp </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-0">
-                            <div class="card 03_rosado" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/03_rosado-opt.jpg" alt="..." />
-                                <div class="card-body  text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Rosado<br>Oscuro</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="producto1 producto 02_rosa" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/02_rosa-opt.jpg" alt="..." />
+                    <h6>Palo de rosa</h6>
                 </div>
-
+                <div class="producto2 producto 02_beige"data-toggle="modal" data-target="#modalDetalles"><img class="c" src="./Prendas/02_beige-opt.jpg" alt="..." />
+                    <h6>Beige</h6>
+                </div>
+                <div class="producto3 producto 02_rosado" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/02_rosado-opt.jpg" alt="..." />
+                    <h6>Rosa oscuro</h6>
+                </div>
             </div>
-
-            <div class="card mb-2">
-                <div class="card-header text-center h5 font-weight-bold">
-                    Carlota - Camisa manga larga y pantalón
+            <div class="contenedor js-scroll fade-in">
+                <div id="nombreProducto3" class="nombreProducto">
+                    <h4>Carmín - Camisa y short</h4>
                 </div>
-                <div class="card-body bg-body-referencia">
-                    <div class="row">
-                        <div class="col-4 mt-1">
-                            <div class="card 02_rosa" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/02_rosa-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Palo de <br>rosa</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-1">
-                            <div class="card  02_beige" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/02_beige-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Beige <br>&nbsp </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-1">
-                            <div class="card 02_rosado" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/02_rosado-opt.jpg" alt="..." />
-                                <div class="card-body  text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Rosado<br>Oscuro</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+                <div class="producto1 producto 01_rosa" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/01_rosa-opt.jpg" alt="..." />
+                    <h6>Palo de rosa</h6>
                 </div>
-
+                <div class="producto2 producto 01_beige"data-toggle="modal" data-target="#modalDetalles"><img class="c" src="./Prendas/01_beige-opt.jpg" alt="..." />
+                    <h6>Beige</h6>
+                </div>
+                <div class="producto3 producto 01_rosado" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/01_rosado-opt.jpg" alt="..." />
+                    <h6>Rosa oscuro</h6>
+                </div>
             </div>
-
-            <div class="card mb-2">
-                <div class="card-header text-center font-weight-bold h5">
-                    Carmín - Camisa manga corta y short
+            <div class="contenedor js-scroll fade-in">
+                <div id="nombreProducto4" class="nombreProducto">
+                    <h4>Sofía - Kimono y pantalón</h4>
                 </div>
-                <div class="card-body bg-body-referencia">
-                    <div class="row">
-                        <div class="col-4 mt-1">
-                            <div class="card 01_rosa" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/01_rosa-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Palo de <br>rosa</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-1">
-                            <div class="card 01_beige" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/01_beige-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Beige <br>&nbsp </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-1">
-                            <div class="card 01_rosado" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/01_rosado-opt.jpg" alt="..." />
-                                <div class="card-body  text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Rosado<br>Oscuro</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+                <div class="producto1 producto 04_rosa" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/04_rosa-opt.jpg" alt="..." />
+                    <h6>Palo de rosa</h6>
                 </div>
-
-            </div>
-
-            <div class="card mb-2">
-                <div class="card-header text-center h5 font-weight-bold ">
-                    Sofía - Kimono y pantalón
+                <div class="producto2 producto 04_beige"data-toggle="modal" data-target="#modalDetalles"><img class="c" src="./Prendas/04_beige-opt.jpg" alt="..." />
+                    <h6>Beige</h6>
                 </div>
-                <div class="card-body bg-body-referencia">
-
-                    <div class="row">
-                        <div class="col-4 mt-1">
-                            <div class="card 04_rosa" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/04_rosa-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Palo de <br>rosa</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-1">
-                            <div class="card 04_beige" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/04_beige-opt.jpg" alt="..." />
-                                <div class="card-body text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Beige <br>&nbsp </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 mt-1">
-                            <div class="card 04_rosado" data-toggle="modal" data-target="#modalDetalles">
-                                <img class="card-img-top" src="./Prendas/04_rosado-opt.jpg" alt="..." />
-                                <div class="card-body  text-center py-1 pt-2 px-1">
-                                    <h6 class="card-title">Rosado<br>Oscuro</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="producto3 producto 04_rosado" data-toggle="modal" data-target="#modalDetalles"><img class="" src="./Prendas/04_rosado-opt.jpg" alt="..." />
+                    <h6>Rosa oscuro</h6>
                 </div>
             </div>
         </div>
@@ -220,7 +133,7 @@
         </div>
     </main>
 
-    <footer class="footer montse fixed-bottom container-fluid mt-1 py-1">
+    <footer class="footer montse container-fluid py-1">
         <div class="row">
             <div class="col-6 text-left ">
                 Hechas con amor
@@ -244,6 +157,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/animations.js"></script>
 </body>
 
 </html>
