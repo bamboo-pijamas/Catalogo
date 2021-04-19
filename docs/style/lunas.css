@@ -1,15 +1,22 @@
+body{
+    margin: 0;
+    overflow-Y: hidden; /*quitar el scroll*/
+
+}
 .lunas{
-    display: flex;
-    flex-direction: row;    
-    position: relative;
+    position:absolute;
+    background-color: #A6B9C8;
+    top:0;
     width: 100%;
-    min-height: 100vh;
-    border: red 2px solid;
+    min-height: 100vh; 
+    display: flex;
+    z-index: 1;
+
 }
 .cerrarPreloader {
-    transform: translateY(-100%);
-    transition: all 1.5s;
-  }
+	transform: translateY(-100%);
+	transition: all 0.7s;
+}
   
 @keyframes moverArriba {
     0%   {top: 40vh;}
