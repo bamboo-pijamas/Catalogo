@@ -46,6 +46,10 @@ window.addEventListener('scroll', () => {
     handleScrollAnimation();
   })  
   
-  window.addEventListener('DOMContentLoaded', () => {
+//   window.addEventListener('DOMContentLoaded', () => {
+//     handleScrollAnimation();
+//   })
+
+  setTimeout(function() {
     handleScrollAnimation();
-  })
+  }, 6500);

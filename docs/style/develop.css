@@ -51,6 +51,7 @@ body{
     flex-wrap: wrap;
     border: #0B2A3c solid 1px;
     justify-content: space-between;
+    margin-bottom: 1em;
 }
 @media (min-width: 768px){
     .referencia{
@@ -78,6 +79,11 @@ body{
     text-align: center;
     background-color: #fff;
     border-radius: 0.3em 0.3em 0em 0em;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+}   
+.nombreProducto >h4{
+    margin: 0;
 }
 .producto{
     display: flex;
