@@ -52,4 +52,4 @@ window.addEventListener('scroll', () => {
 
   setTimeout(function() {
     handleScrollAnimation();
-  }, 6500);
+  }, 6700);

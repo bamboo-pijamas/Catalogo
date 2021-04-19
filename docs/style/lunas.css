@@ -15,12 +15,12 @@ body{
 }
 .cerrarPreloader {
 	transform: translateY(-100%);
-	transition: all 0.7s;
+	transition: all 0.9s;
 }
   
 @keyframes moverArriba {
     0%   {top: 40vh;}
-    50%  {top: 22vh;}
+    50%  {top: 27vh;}
     100% {top: 40vh;}
   }
 
